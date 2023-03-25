@@ -27,6 +27,7 @@ public class CatTest {
 		animal = new Cat("Horst", Sleep, Awake, Digest);
 	}
 
+
 	@Test
 	void testFeedHungryAnimal() {
 		IntStream.range(0, Sleep).forEach(i -> animal.tick());
